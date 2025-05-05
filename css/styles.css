@@ -1,5 +1,12 @@
 .box {
   width: 200px;
   height: 200px;
-  background: linear-gradient( 45deg, brown, yellow , brown);
+  background: pink;
+
+  box-shadow: 0px 0px 30px yellow;
+}
+
+h1 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
