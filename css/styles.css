@@ -1,9 +1,5 @@
-p {
-  color: dodgerblue;
-  border: 1px solid black;
-}
-
-strong {
-  color: initial;
-  border: inherit;
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hsla(0, 85%, 54%, 0.5);
 }
