@@ -1,11 +1,9 @@
-h1 {
-  color: pink;
+p {
+  color: dodgerblue;
+  border: 1px solid black;
 }
 
-.heighlighte {
-  color: blue;
-}
-
-#products {
-  color: red;
+strong {
+  color: initial;
+  border: inherit;
 }
