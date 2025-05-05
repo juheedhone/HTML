@@ -1,3 +1,11 @@
-a[href*="google"] {
-  color: red;
+a:visited,
+a:link {
+  color: deeppink;
+}
+a:hover{
+  color: dodgerblue;
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
 }
