@@ -5,15 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      video {
-        width: 500px;
+      table,
+      td,
+      tbody,
+      tfoot {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        text-align: left;
       }
     </style>
   </head>
   <body>
-    <video controls autoplay loop src="vedios/ocean.mp4">
-      Your browser does't supports videos
-    </video>
-    <audio controls autoplay src="audio/ocean audio.mp3"></audio>
+    <table>
+      <thead>
+        <th>Expense</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>100$</td>
+        </tr>
+        <tr>
+          <td>jshdug</td>
+          <td>200$</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <th>total</th>
+        <th>300$</th>
+      </tfoot>
+    </table>
   </body>
 </html>
