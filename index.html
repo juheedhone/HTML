@@ -8,8 +8,42 @@
     <link rel="stylesheet" href="/css/normalize.css" />
   </head>
   <body>
-    <div class="box">
-      <h1>Headings</h1>
-    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>country</th>
+          <th>OrderID</th>
+          <th>OrderAmount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>USA</td>
+          <td>1000</td>
+          <td>$1300</td>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>1001</td>
+          <td>$700</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1002</td>
+          <td>$2000</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1003</td>
+          <td>$1000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th colspan="2">$5000</th>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
