@@ -1,17 +1,19 @@
-/* universal selector */
-*,
-*::after,
-*::after {
-  box-sizing: border-box;
+html{
+  /* 62.5% of 16px= 10px  */
+  font-size: 62.5%;
 }
 
-.box::before {
-  content: "hello";
+body {
+  margin: 10px;
 }
 
 .box {
-  width: 100px;
-  height: 100px;
+  /* 50% of the width of  parent */
+  /* 10em means 10 x font size of the current element  */
+  /* html default font size is 16px */
+
+  width: 15rem;
+  height: 100vh;
   background-color: gold;
-  display: inline-block;
+  border-top: 3px solid black;
 }
