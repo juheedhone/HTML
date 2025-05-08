@@ -1,19 +1,35 @@
-html{
+html {
   /* 62.5% of 16px= 10px  */
   font-size: 62.5%;
 }
 
 body {
   margin: 10px;
+  height: 200vh;
+}
+
+.boxes {
+  border: 3px solid lightgray;
+  position: relative;
 }
 
 .box {
-  /* 50% of the width of  parent */
-  /* 10em means 10 x font size of the current element  */
-  /* html default font size is 16px */
+  width: 5rem;
+  height: 5rem;
+}
+.box-one {
+  background: gold;
+}
 
-  width: 15rem;
-  height: 100vh;
-  background-color: gold;
-  border-top: 3px solid black;
+.box-two {
+  background: red;
+  position: fixed;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+   top: 0;
+}
+
+.box-three {
+  background: blue;
 }
