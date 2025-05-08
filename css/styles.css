@@ -5,31 +5,20 @@ html {
 
 body {
   margin: 10px;
-  height: 200vh;
 }
-
-.boxes {
-  border: 3px solid lightgray;
-  position: relative;
+.container {
+  display: grid;
+  grid-template: 100px auto 100px / auto 100px;
+  grid-template-areas: "header header" "sidebar main " "footer footer";
+  border: 3px solid black;
+  gap: 4px 4px;
+  height: 100vh;
 }
 
 .box {
-  width: 5rem;
-  height: 5rem;
-}
-.box-one {
-  background: gold;
-}
-
-.box-two {
   background: red;
-  position: fixed;
-  left: 2rem;
-  right: 2rem;
-  width: auto;
-   top: 0;
 }
 
-.box-three {
-  background: blue;
+.box-one {
+  grid-area: header ;
 }
