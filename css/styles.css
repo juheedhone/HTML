@@ -9,7 +9,6 @@ body {
 
 .container {
   border: 3px solid black;
-  display: grid;
   display: flex;
 }
 
@@ -33,7 +32,7 @@ body {
   list-style: none;
   color: white;
   font-size: x-large;
-  display: grid;
+  display: flex;
   justify-content: center;
   justify-items: center;
   font-family: Arial, Helvetica, sans-serif;
