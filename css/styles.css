@@ -1,67 +1,12 @@
-/* @font-face {
-  font-family: "opensans ";
-  src: url("fonts/open-sans/opensans-bold-webfont.woff2") format("woff2"),
-    url("fonts/open-sans/ opensans-bold-webfont.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "opensans";
-  src: url("fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"),
-    url("fonts/open-sans/ opensans-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: fallback;
-} */
-
 html {
   /* 62.5% of 16px= 10px  */
   font-size: 62.5%;
 }
-
 body {
-  margin: 10px;
-  font-size: 1rem;
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  color: #222;
-}
+  background: url(../images/bg-sanfrancisco.jpg);
+  background-repeat: no-repeat;
 
-.container {
-  border: 1px solid black;
-  padding: 5rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  max-width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-p {
-  font-family: "open-sans", Georgia, "Times New Roman", Times, serif;
-  font-style: italic;
-  font-size: 1.2rem;
-}
-
-h1 {
-  font-size: 2.986rem;
-}
-h2 {
-  font-size: 2.488rem;
-}
-h3 {
-  font-size: 2.074rem;
-}
-h4 {
-  font-size: 1.728rem;
-}
-
-img {
-  width: 100%;
-  height: 20rem;
-  object-fit: cover;
-}
-
-ul {
-  padding-left: 24px;
+  background-size: cover;
+  height: 300vh;
+  background-attachment: fixed;
 }
