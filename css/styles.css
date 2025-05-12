@@ -2,11 +2,6 @@ html {
   /* 62.5% of 16px= 10px  */
   font-size: 62.5%;
 }
-body {
-  background: url(../images/bg-sanfrancisco.jpg);
-  background-repeat: no-repeat;
-
-  background-size: cover;
-  height: 300vh;
-  background-attachment: fixed;
+.meal{
+  width: 400px;
 }
