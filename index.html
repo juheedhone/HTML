@@ -14,11 +14,29 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <img
+    <!-- <img
       src="images/meal.jpg "
       alt="A bowl of salmon"
       class="meal"
-      srcset="images/meal.jpg 1x, images/meal@2x.jpg 2x, images/meal@3x.jpg 3xs"
+      srcset="
+        images/meal.jpg     400w,
+        images/meal@2x.jpg  800w,
+        images/meal@3x.jpg 1200w
+      "
+      sizes="(max-width: 500px) 100vw,
+      (max-width: 700px) 50vw,
+      33vw"
+    /> -->
+    <img
+      sizes="(max-width: 1400px) 100vw, 1400px"
+      srcset="
+        /images/meal-full_h3yrzz_c_scale,w_200.jpg   200w,
+        /images/meal-full_h3yrzz_c_scale,w_688.jpg   688w,
+        /images/meal-full_h3yrzz_c_scale,w_1024.jpg 1024w,
+        /images/meal-full_h3yrzz_c_scale,w_1400.jpg 1400w
+      "
+      src="meal-full_h3yrzz_c_scale,w_1400.jpg"
+      alt=""
     />
   </body>
 </html>
