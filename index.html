@@ -27,16 +27,12 @@
       (max-width: 700px) 50vw,
       33vw"
     /> -->
-    <img
-      sizes="(max-width: 1400px) 100vw, 1400px"
-      srcset="
-        /images/meal-full_h3yrzz_c_scale,w_200.jpg   200w,
-        /images/meal-full_h3yrzz_c_scale,w_688.jpg   688w,
-        /images/meal-full_h3yrzz_c_scale,w_1024.jpg 1024w,
-        /images/meal-full_h3yrzz_c_scale,w_1400.jpg 1400w
-      "
-      src="meal-full_h3yrzz_c_scale,w_1400.jpg"
-      alt=""
-    />
+    <picture>
+      <source
+        type="image/webp"
+        srcset="images/meal.webp 1x, image/meal@2x .webp"
+      />
+      <img src="images/meal.jpg" alt="A bowl of rice" />
+    </picture>
   </body>
 </html>
