@@ -3,4 +3,30 @@ html {
   font-size: 62.5%;
 }
 
+.main {
+  background-image: url(/images/jeremy-thomas-E0AHdsENmDg-unsplash_ynhlxi_c_scale\,w_1345.jpg);
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
 
+.heading {
+  font-weight: bolder;
+  font-size: 5rem;
+
+  word-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.para {
+  width: fit-content;
+  padding: 1rem;
+  margin: 0 auto 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  font-weight: 300;
+}
