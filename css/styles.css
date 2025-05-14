@@ -31,7 +31,10 @@ body {
 .box {
   background: yellow;
   width: 100px;
-  height: 100px; 
+  height: 100px;
+}
+
+.animation-pop {
   animation-name: pop;
   animation-duration: 4s;
   animation-iteration-count: infinite;
