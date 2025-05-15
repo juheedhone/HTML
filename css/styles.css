@@ -4,13 +4,53 @@ html {
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  max-width: 50%;
+  font-family: "Inter", sans-serif;
 }
 
-@keyframes pop {
+.card {
+  width: 500px;
+  height: 287px;
+  background: white;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.main {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  background: linear-gradient(#74d690, #5cbfbb);
+  display: flex;
+
+  color: white;
+  padding: 10px 10px 10px 40px;
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 30px;
+}
+
+.paragraph {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.card:hover {
+  transform: rotate(-10deg);
+}
+
+/* @keyframes pop {
   0% {
     transform: scale(1);
   }
@@ -26,18 +66,12 @@ body {
   100% {
     transform: rotate(0);
   }
-}
+} */
 
-.box {
-  background: yellow;
-  width: 100px;
-  height: 100px;
-}
-
-.animation-pop {
+/* .animation-pop {
   animation-name: pop;
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
   animation-direction: alternate;
-}
+} */
